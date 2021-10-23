@@ -1,4 +1,4 @@
-node('jenkins-slave') {
+node('nodepool-ce93f764-fc5c-44fc-81-node-a0131c') {
     
      stage('test pipeline') {
         sh(script: """
