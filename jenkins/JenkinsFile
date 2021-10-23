@@ -1,4 +1,4 @@
-node('nodepool-ce93f764-fc5c-44fc-81-node-a0131c') {
+node('master') {
     
      stage('test pipeline') {
         sh(script: """
